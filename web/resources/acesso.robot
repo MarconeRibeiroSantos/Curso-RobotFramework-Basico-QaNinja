@@ -4,8 +4,6 @@ Resource        base_tests.robot
 
 *** Variables ***
 ${PAGE_TITLE_IS_LOGIN_YOUCOM}             Login - YouCom
-${ACESSO_BREADCRUMP}                      Identificação 
-
 
 ${ACESSO_FIELD_USERNAME}                  id:widget75-email
 ${ACESSO_FIELD_PASSWORD}                  id:widget75-password  
