@@ -76,7 +76,7 @@ Verificar nome de usuário logado no header
 
 Verificar se a página contém elemento da tela de login
     Page Should Contain Element        ${ACESSO_BTN_LOGIN} 
-    Page Should Contain                ${ACESSO_BREADCRUMP}
+    Verificar o título da página de login
 
 Capturar screenshot
     Capture Page Screenshot        
