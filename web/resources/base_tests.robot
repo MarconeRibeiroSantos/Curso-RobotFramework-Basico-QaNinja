@@ -1,9 +1,10 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        acesso_welcome.robot
+Resource        welcome.robot
 Resource        painel_cliente.robot
 Resource        home.robot
 Resource        acesso.robot
+Resource        pdp.robot
 
 
 
@@ -20,8 +21,7 @@ Nova sessão
 
 
 Encerra sessão    
-    Close Browser
-    
+    Close Browser 
 
 
 ### Gherkin Potuguês config ###
