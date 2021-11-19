@@ -46,10 +46,9 @@ o sistema não permite login e exibe mensagem de erro
 
 
 o usuário acessa sua conta
-    Aguardar carregamento da página de welcome
-    Verificar mensagem de boas vindas
-    Verificar o título da página de welcome
-     
+    Verificar o título da página de boas vindas
+    #Verificar mensagem de boas vindas
+    #Verificar o título da página de welcome     
     Capturar screenshot                    
      
    
@@ -63,7 +62,6 @@ Verificar o título da página de login
     Title Should Be                     ${PAGE_TITLE_IS_LOGIN_YOUCOM}  
 
 Verificar que o usuário não logou  
-    sleep  15s
     Verificar o título da página de login
     
 Verificar mensagem de boas vindas 
@@ -93,7 +91,8 @@ Preencher o campo email "${email}" e senha "${senha}" da tela de login
 
 Clicar no botão 'entrar'
     Click Element                       ${ACESSO_BTN_LOGIN}
+    sleep                               3s
 
-Aguardar carregamento da página de welcome
-    sleep  5s
+Recarregar a pagina
+    
     

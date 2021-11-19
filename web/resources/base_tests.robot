@@ -3,6 +3,7 @@ Library         SeleniumLibrary
 Resource        acesso_welcome.robot
 Resource        painel_cliente.robot
 Resource        home.robot
+Resource        acesso.robot
 
 
 
