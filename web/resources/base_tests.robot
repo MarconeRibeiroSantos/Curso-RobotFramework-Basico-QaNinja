@@ -1,5 +1,9 @@
 *** Settings ***
-Library             SeleniumLibrary
+Library         SeleniumLibrary
+Resource        acesso_welcome.robot
+Resource        painel_cliente.robot
+Resource        home.robot
+
 
 
 *** Variables ***
@@ -14,8 +18,7 @@ Nova sessão
     Set Window Size	                    1366                  924	                    
 
 
-Encerra sessão
-    Capture Page Screenshot
+Encerra sessão    
     Close Browser
     
 
